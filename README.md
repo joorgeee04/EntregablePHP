@@ -1,15 +1,23 @@
-# Código 
+# Investigación y comparación: condicionales en PHP
+
+## Código
+
+```php
 <?php
+// Abre el bloque de código PHP (obligatorio al inicio del archivo)
+
+// Declaramos la variable edad con un valor fijo
 $edad = 20;
 
+// Comprobamos si la edad es mayor o igual que 18
 if ($edad >= 18) {
+    // Se ejecuta si la condición es verdadera
     echo "Mayor de edad\n";
 } else {
+    // Se ejecuta si la condición es falsa
     echo "Menor de edad\n";
 }
-
-
-# Investigación y comparación: condicionales en PHP
+```
 
 ## 1. ¿Cómo se declara la variable?
 
